@@ -20,7 +20,7 @@ jobs:
 
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.HF_PUSH_TOKEN }}
-        run: git push --force https://sanjaydubey733:$HF_PUSH_TOKEN@huggingface.co/spaces/sanjaydubey733/agenticai main
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: git push --force https://sanjaydubey733:$HF_TOKEN@huggingface.co/spaces/sanjaydubey733/agenticai main
        
          
